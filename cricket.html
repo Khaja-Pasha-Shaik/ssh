@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinagar Super Heroes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .player {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .player img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 100px;
+            height: 100px;
+        }
+        .player-details {
+            background-color: #e7f7ff;
+            padding: 20px;
+            border-radius: 10px;
+            flex-grow: 1;
+        }
+        .player-details h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .fixture, .certificate {
+            background-color: #e7f7ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            margin: 10px 0;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-group input {
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .certificate-output {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .certificate-output img {
+            border-radius: 10px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Srinagar Super Heroes</h1>
+        <p>Welcome to the official page of the Srinagar Super Heroes cricket team!</p>
+    </header>
+    <nav>
+        <a href="#players">Players</a>
+        <a href="#fixtures">Fixtures</a>
+        <a href="#certificate">Certificate</a>
+    </nav>
+    <div class="container">
+        <section id="players" class="section">
+            <h2>Our Players</h2>
+            <div class="player">
+                <img src="default.png" alt="Ayaan">
+                <div class="player-details">
+                    <h3>Ayaan</h3>
+                    <p><strong>Batting style:</strong> Right-handed</p>
+                    <p><strong>Fielding position:</strong> Mid-on</p>
+                    <p><strong>Player experience:</strong> 1 years</p>
+                    <p><strong>Matches played:</strong> 20</p>
+                    <p><strong>Specialization:</strong> Cover drive, Pull shot</p>
+                </div>
+            </div>
+			<div class="player">
+                <img src="p2.jpg" alt="Aman">
+                <div class="player-details">
+                    <h3>Aman</h3>
+                    <p><strong>Batting style:</strong> Right-handed</p>
+                    <p><strong>Fielding position:</strong> Mid-Off</p>
+                    <p><strong>Player experience:</strong> 1.3 years</p>
+                    <p><strong>Matches played:</strong> 26</p>
+                    <p><strong>Specialization:</strong> All-rounder</p>
+                </div>
+            </div>
+			<div class="player">
+                <img src="p3.jpeg" alt="Pasha">
+                <div class="player-details">
+                    <h3>Pasha</h3>
+                    <p><strong>Batting style:</strong> Right-handed</p>
+                    <p><strong>Fielding position:</strong> Always Bowler</p>
+                    <p><strong>Player experience:</strong> 1.3 years</p>
+                    <p><strong>Matches played:</strong> 26</p>
+                    <p><strong>Specialization:</strong> All-rounder</p>
+                </div>
+            </div>
+			<div class="player">
+                <img src="default.png" alt="Taju">
+                <div class="player-details">
+                    <h3>Taju</h3>
+                    <p><strong>Batting style:</strong> Right-handed</p>
+                    <p><strong>Fielding position:</strong> Part-time Bowler</p>
+                    <p><strong>Player experience:</strong> 1.3 years</p>
+                    <p><strong>Matches played:</strong> 26</p>
+                    <p><strong>Specialization:</strong> All-rounder</p>
+                </div>
+            </div>
+			<div class="player">
+                <img src="p1.jpg" alt="Chotu">
+                <div class="player-details">
+                    <h3>Chotu</h3>
+                    <p><strong>Batting style:</strong> Right-handed</p>
+                    <p><strong>Fielding position:</strong> Part-time Bowler</p>
+                    <p><strong>Player experience:</strong> 1.3 years</p>
+                    <p><strong>Matches played:</strong> 26</p>
+                    <p><strong>Specialization:</strong> All-rounder</p>
+                </div>
+            </div>
+			<div class="player">
+                <img src="default.png" alt="Ahad">
+                <div class="player-details">
+                    <h3>Ahad</h3>
+                    <p><strong>Batting style:</strong> Right-handed</p>
+                    <p><strong>Fielding position:</strong> Part-time Bowler</p>
+                    <p><strong>Player experience:</strong> 1.3 years</p>
+                    <p><strong>Matches played:</strong> 26</p>
+                    <p><strong>Specialization:</strong> All-rounder</p>
+                </div>
+            </div>
+			<div class="player">
+                <img src="default.png" alt="Sharif">
+                <div class="player-details">
+                    <h3>Sharif</h3>
+                    <p><strong>Batting style:</strong> Right-handed</p>
+                    <p><strong>Fielding position:</strong> Part-time Bowler</p>
+                    <p><strong>Player experience:</strong> 1.3 years</p>
+                    <p><strong>Matches played:</strong> 26</p>
+                    <p><strong>Specialization:</strong> All-rounder</p>
+                </div>
+            </div>
+        </section>
+        <section id="fixtures" class="section fixture">
+            <h2>Fixtures Schedule</h2>
+            <ul>
+                <li>Matches: Happens Every Evening 4 PM</li>
+            </ul>
+        </section>
+        <section id="certificate" class="section certificate">
+            <h2>Man of the Match</h2>
+            <div class="input-group">
+                <label for="player-name">Enter Player Name:</label>
+                <input type="text" id="player-name" placeholder="Enter name here...">
+            </div>
+            <button onclick="generateCertificate()">Generate Certificate</button>
+            <div class="certificate-output" id="certificate-output"></div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Srinagar Super Heroes. All rights reserved.</p>
+    </footer>
+    <script>
+    let playerName = '';
+    
+    function generateCertificate() {
+        if (!playerName) {
+            playerName = document.getElementById('player-name').value;
+        }
+        const date = new Date().toLocaleDateString();
+        const output = document.getElementById('certificate-output');
+        output.innerHTML = `
+            <h3>Man of the Match</h3>
+            <p>${date}</p>
+            <p>${playerName}</p>
+            <img src="mom.png" alt="Certificate">
+        `;
+    }
+</script>
+
+</body>
+</html>
